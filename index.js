@@ -24,11 +24,5 @@ function countFlavors(array) {
   return counts;
 }
 
-// Calling the function with the flavors array and storing the result in a variable
-const flavorCounts = countFlavors(flavors);
-
-// Log the counts object
-console.log(flavorCounts);
-
 // Display counts object as a table
-console.table(flavorCounts);
+console.table(countFlavors(flavors));
